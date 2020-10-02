@@ -9,10 +9,12 @@
      parallax(".negyvenegy", window.scrollY, 0.8);
      parallax(".negyven", window.scrollY, 0.3);
      parallax(".het", window.scrollY, 0.4);
-     parallax(".ten", window.scrollY, 0.2);
-     parallax(".twelve", window.scrollY, 0.9);
-     parallax(".thirteen", window.scrollY, 0.8);
-     parallax(".seventeen", window.scrollY, 0.6);
+     parallax(".hat", window.scrollY, 0.2);
+     parallax(".tizenhat", window.scrollY, 0.25);
+     parallax(".ot", window.scrollY, 0.9);
+     parallax(".negyvenketto", window.scrollY, 0.6);
+     parallax(".huszonkilenc", window.scrollY, 0.2);
+     parallax(".huszonkilencplusz", window.scrollY, 0.5);
 
  });
 

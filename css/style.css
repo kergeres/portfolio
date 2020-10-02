@@ -38,8 +38,8 @@ html {
     position: fixed;
     right: 50px;
     top: 40px;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 4vh;
+    line-height: 8vh;
     cursor: pointer;
     text-align: right;
 }
@@ -63,22 +63,27 @@ html {
 #landing-section {
     width: 100%;
     height: 100vh;
-    background-color: violet;
     font-style: var(--rift-text);
     font-size: 50px;
     background-image: url(../img/example-bg-gray.jpg);
     background-size: cover;
     background-position: center;
-    animation: zoom 10s linear forwards;
+    animation: zoom 8s linear forwards;
 
 }
 
-.logo {
-    width: 8vh;
+.name {
+    width: 18vh;
     cursor: pointer;
-    position: fixed;
-    top: 50px;
+    position: absolute;
+    top: 40px;
     left: 50px;
+    font-family: 'rift';
+    color: white;
+    line-height: 90px;
+    font-size: 160px;
+    margin-top: 0;
+
 }
 
 .arrow-container {
@@ -86,26 +91,16 @@ html {
     width: 100px;
     height: 100px;
 
-
-    display: flex;
-    justify-content: space-between;
-
 }
 
 
 
 .arrow {
-    border: solid black;
-    border-width: 0 7px 7px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    width: 5vh;
+    width: 10vh;
     height: 5vh;
-    overflow: hidden;
-    cursor: pointer;
-
+    background-image: url(../img/nyille.svg);
+    background-position: center;
+    background-size: cover;
 }
 
 .floating {
@@ -270,7 +265,7 @@ h2 a {
     position: absolute;
     right: 10%;
 
-    top: 20%;
+    top: -30%;
 }
 
 .het {
@@ -296,7 +291,7 @@ h2 a {
     position: absolute;
     left: 60%;
 
-    top: 40%;
+    top: -100%;
 }
 
 .negyvenketto {
@@ -306,9 +301,9 @@ h2 a {
     background-position: center;
     background-size: cover;
     position: absolute;
-    right: 1%;
+    right: -10%;
 
-    bottom: 30%;
+    top: -70%;
 }
 
 .hat {
@@ -320,7 +315,7 @@ h2 a {
     position: absolute;
     left: 50%;
 
-    top: 60%;
+    top: 0%;
 }
 
 .huszonkilenc {
@@ -332,12 +327,42 @@ h2 a {
     position: absolute;
     left: 550px;
 
-    top: 30px;
+    top: -230px;
 }
 
+.huszonkilencplusz {
+    background-image: url(../img/29.svg);
+    height: 30vh;
+    width: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 350px;
 
+    top: -530px;
+}
 
+.fedo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 0;
+}
 
+.trumpli {
+    background-image: url(../img/trumpli.svg);
+    height: 50vh;
+    width: 58vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
 
 
 .hexagon-container {
@@ -354,6 +379,7 @@ h2 a {
     top: 375px;
     left: 415px;
     position: absolute;
+    background-image: url(../img/vale.jpg);
 }
 
 #hex2 {
