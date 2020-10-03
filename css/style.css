@@ -141,16 +141,7 @@ html {
 }
 
 
-.works {
-    width: 50vh;
-    height: 40vh;
-    background-image: url(../img/vale.jpg);
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-    -webkit-transition: 0.4s ease;
-    transition: 0.4s ease;
-}
+
 
 .kontener {
     -webkit-transform: scale(1.08);
@@ -160,60 +151,54 @@ html {
 
 
 
-.works:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
-
-}
-
 
 .contact-container {
     width: 100%;
     height: 100vh;
     background-color: #131312;
-    display: flex;
-    align-items: center;
+
+    position: relative;
+    font-family: 'Roboto';
+
 }
 
 .contact-div {
-    border: 1px solid white;
-    width: auto;
+
+    width: 700px;
     height: auto;
     color: white;
     padding-left: 100px;
+    text-align: center;
+    bottom: 30%;
+    position: absolute;
+
+
+
 }
 
-.contact-div h2,
-h2 a {
-    margin: 50px auto 80px 0;
+.contact-div h1,
+h1 a {
+    margin: 140px auto 100px 0;
     color: white;
     text-decoration: none;
+
+
+
 }
 
 .icon-container {
-    width: 100%;
-    border: 1px solid white;
+    width: 250px;
+
     height: auto;
     display: flex;
     justify-content: space-between;
-}
-
-.some {
-    height: 50px;
-    width: 50px;
-    background-color: aliceblue;
-    margin: 0 20px;
-
-
-}
-
-.right-some {
-    display: flex;
-    right: 10%;
     position: absolute;
-
+    bottom: 30%;
+    right: 20%;
 }
+
+
+
 
 .introduction-container img {
 
@@ -364,12 +349,51 @@ h2 a {
     transform: translate(-50%, -50%);
 }
 
+.dolgozo {
 
-.hexagon-container {
+
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+.ein {
+    background-image: url(../img/trumpli.svg);
+    height: 30vh;
+    width: 35vh;
+    top: 50px;
+    left: 415px;
+}
+
+.zwei {
+    background-image: url(../img/trumpli.svg);
+    height: 40vh;
+    width: 46vh;
+    left: 0px;
+    top: 200px;
+}
+
+
+.trei {
+    background-image: url(../img/trumpli.svg);
+    height: 24vh;
+    width: 28vh;
+    top: 420px;
+    right: 40px;
+}
+
+
+.dolgozo:hover {
+    opacity: 0.8;
+}
+
+.works-wrapper {
 
     width: 750px;
-    height: 600px;
-    position: absolute;
+    height: 650px;
+    position: relative;
+    top: 50px;
+    border: var(--border);
 
 }
 
@@ -437,6 +461,12 @@ h2 a {
     width: inherit;
     content: '';
     transform: rotateZ(-60deg);
+}
+
+div i {
+
+    font-size: 60px;
+    color: white;
 }
 
 @keyframes floating {
