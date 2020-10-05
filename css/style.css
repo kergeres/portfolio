@@ -42,12 +42,17 @@ html {
     line-height: 8vh;
     cursor: pointer;
     text-align: right;
+    z-index: 2;
+
 }
 
-#navi-container h1 {
+#navi-container a,
+a h1 {
     font-family: 'Roboto';
     font-weight: 500;
     color: white;
+    text-decoration: none;
+
 }
 
 #navi-container h1:hover {
@@ -127,18 +132,7 @@ html {
 
 }
 
-#works-container {
-    /* margin-bottom: -150px; */
-    width: 100%;
-    height: 100vh;
-    /* opacity: 0.5; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-
-
-}
 
 
 
@@ -152,7 +146,7 @@ html {
 
 
 
-.contact-container {
+#contact-container {
     width: 100%;
     height: 100vh;
     background-color: #131312;
@@ -338,7 +332,7 @@ h1 a {
 }
 
 .trumpli {
-    background-image: url(../img/trumpli.svg);
+    background-image: url(../img/vale.jpg);
     height: 50vh;
     width: 58vh;
     position: absolute;
@@ -347,6 +341,25 @@ h1 a {
     top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
+}
+
+.intro-text {
+    border: var(--border);
+    font-size: 20px;
+    color: white;
+    z-index: 6;
+    /* height: 300px;*/
+    height: 50vh;
+    width: 550px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-family: 'times new rowman';
+    font-weight: lighter;
+    font-variant: normal;
+    line-height: 30px;
+    transform: translateY(-50%);
+
 }
 
 .dolgozo {
@@ -358,28 +371,28 @@ h1 a {
 }
 
 .ein {
-    background-image: url(../img/trumpli.svg);
-    height: 30vh;
-    width: 35vh;
+    background-image: url(../img/metins.svg);
+    height: 270px;
+    width: 310px;
     top: 50px;
     left: 415px;
 }
 
 .zwei {
-    background-image: url(../img/trumpli.svg);
-    height: 40vh;
-    width: 46vh;
+    background-image: url(../img/webapp.svg);
+    height: 350px;
+    width: 400px;
     left: 0px;
     top: 200px;
 }
 
 
 .trei {
-    background-image: url(../img/trumpli.svg);
-    height: 24vh;
-    width: 28vh;
+    background-image: url(../img/dennis.svg);
+    height: 220px;
+    width: 250px;
     top: 420px;
-    right: 40px;
+    right: 60px;
 }
 
 
@@ -390,11 +403,33 @@ h1 a {
 .works-wrapper {
 
     width: 750px;
-    height: 650px;
+    height: 630px;
     position: relative;
     top: 50px;
+    transform: translateX(-50%);
+    left: 50%;
     border: var(--border);
+}
 
+.check {
+    background-image: url(../img/checkout.svg);
+    background-size: contain;
+    height: 240px;
+    width: 90%;
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 100px;
+    position: relative;
+
+
+}
+
+#works-container {
+    /* margin-bottom: -150px; */
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    /* opacity: 0.5; */
 }
 
 #hex1 {
