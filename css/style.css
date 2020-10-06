@@ -332,19 +332,19 @@ h1 a {
 }
 
 .trumpli {
-    background-image: url(../img/vale.jpg);
+    background-image: url(../img/kepnek.jpg);
     height: 50vh;
-    width: 58vh;
+    width: 35vh;
     position: absolute;
     background-position: center;
     background-size: cover;
     top: 40%;
-    left: 30%;
+    left: 50vh;
     transform: translate(-50%, -50%);
 }
 
 .intro-text {
-    border: var(--border);
+
     font-size: 20px;
     color: white;
     z-index: 6;
@@ -353,8 +353,8 @@ h1 a {
     width: 550px;
     position: absolute;
     top: 40%;
-    right: 10%;
-    font-family: 'times new rowman';
+    left: 100vh;
+    font-family: 'arial';
     font-weight: lighter;
     font-variant: normal;
     line-height: 30px;
@@ -408,7 +408,8 @@ h1 a {
     top: 50px;
     transform: translateX(-50%);
     left: 50%;
-    border: var(--border);
+
+    margin-bottom: 50px;
 }
 
 .check {
@@ -427,7 +428,7 @@ h1 a {
 #works-container {
     /* margin-bottom: -150px; */
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     height: auto;
     /* opacity: 0.5; */
 }
