@@ -442,8 +442,7 @@ h1 a {
 #works-container {
     /* margin-bottom: -150px; */
     width: 100%;
-    min-height: 110vh;
-    height: auto;
+    height: 1100px;
     background-color: #5f7689;
     /* opacity: 0.5; */
 }
