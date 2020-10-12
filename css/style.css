@@ -46,6 +46,12 @@ html {
 
 }
 
+.aboutme {
+    text-align: end;
+    margin-bottom: 60px;
+    font-size: 90px;
+}
+
 #navi-container a,
 a h1 {
     font-family: 'Roboto';
@@ -352,7 +358,7 @@ h1 a {
 
 .intro-text {
 
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     z-index: 6;
     /* height: 300px;*/
@@ -364,7 +370,7 @@ h1 a {
     font-family: 'arial';
     font-weight: lighter;
     font-variant: normal;
-    line-height: 25px;
+    line-height: 27px;
 
 
 }
@@ -545,5 +551,144 @@ div i {
 
     100% {
         background-size: 120% auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navi-container {
+        display: none;
+        background-color: yellowgreen;
+    }
+
+
+
+    #landing-section {
+        background-image: none;
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .name {
+        width: 100%;
+        left: 0;
+        text-align: center;
+        top: 200px;
+    }
+
+    .arrow {
+        background-image: url(../img/nyille_feher.svg);
+        margin: auto;
+    }
+
+
+
+    .floating {
+        left: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translateX(-50%);
+    }
+
+
+    .works-wrapper {
+        width: 100%;
+        align-items: center;
+
+
+    }
+
+    #works-container {
+        height: 1500px;
+    }
+
+    .dolgozo {
+        transform: translateX(-50%);
+        left: 50%;
+        height: 300px;
+        width: 350px;
+    }
+
+    .ein {
+        top: 0px;
+
+    }
+
+    .zwei {
+        top: 400px;
+
+
+    }
+
+    .trei {
+        top: 800px;
+
+    }
+
+    .check {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .aboutme {
+        font-size: 40px;
+    }
+
+    .tarto {
+        display: block;
+        align-items: flex-end;
+    }
+
+    .trumpli {
+        width: 90%;
+        margin: 0 auto;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+
+    .intro-text {
+        width: 90%;
+        margin: 50px auto;
+        text-align: justify;
+
+    }
+
+    .introduction-container {
+        height: 200vh;
+    }
+
+    #contact-container {
+        display: block;
+    }
+
+    .contact-div {
+        width: 90%;
+        padding-left: 0;
+        text-align: center;
+        top: 0;
+        padding-top: 30%;
+        margin: auto;
+
+    }
+
+    .contact-div h1,
+    h1 a {
+        font-size: 12px;
+    }
+
+    .contact-div h1,
+    h1 a :first-child {
+        margin-top: 0;
+    }
+
+    .icon-container {
+        align-items: center;
+        margin: auto
     }
 }
