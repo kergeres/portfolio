@@ -1,12 +1,14 @@
 ---------meta desc
 ---------david papp szovegnek mas font
 ---------projects kepre is link 
+---------suhnoszovegek 
 
 
 
 
 obama kepnek kep
-funciot megcsinalmi: gallery, suhnoszovegek 
+obama kep mobilera
+funciot megcsinalmi: gallery, 
 nagy leiras a subpage-nek
 kep a subpage-nek
 about-me-t ujrairni

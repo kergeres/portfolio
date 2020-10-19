@@ -108,8 +108,9 @@ a h1 {
     text-transform: capitalize;
     top: 400px;
     position: absolute;
+    display: inline-block !important;
     font-size: 70px;
-    animation: dp 6s ease;
+    animation: dp 4s ease;
     animation-fill-mode: forwards;
     margin: 0;
     animation-delay: 1.5s;
@@ -551,7 +552,7 @@ a h1 {
 
     .about-me-top-p {
         width: 90%;
-        margin-top: 20px;
+        margin-top: 60px;
         text-align: center;
     }
 
@@ -625,6 +626,8 @@ a h1 {
 
 @media only screen and (max-width: 768px) {
 
+    .landing-page-bg {}
+
     #landing-page {
         height: 50vh;
         ;
@@ -633,6 +636,7 @@ a h1 {
     #landing-page h1 {
         font-size: 30px;
         top: 200px;
+        display: inline-block;
         transform: translateX(-50%);
     }
 
@@ -662,6 +666,7 @@ a h1 {
 
     #contact ul {
         margin: auto;
+        margin-bottom: 10px;
         text-align: center;
     }
 
@@ -671,7 +676,7 @@ a h1 {
     }
 
     .icon-container {
-        margin: 50px auto;
+        margin: 150px auto 20px auto;
     }
 
 
@@ -687,7 +692,7 @@ a h1 {
         }
 
         20% {
-            right: -10%;
+            right: 10%;
             opacity: 0;
             font-size: 20px;
 
@@ -722,14 +727,14 @@ a h1 {
 
     @keyframes intro-text {
         0% {
-            right: -10%;
+            right: 10%;
             opacity: 0;
             font-size: 20px;
 
         }
 
         20% {
-            right: -10%;
+            right: 10%;
             opacity: 0;
             font-size: 20px;
 
