@@ -1,0 +1,194 @@
+:root {
+    --border: 1px solid black;
+    --middleGrey: #1D1D1D;
+    --darkGrey: #151515;
+    --rred-hover: #5c212a;
+    --rred: #702B35;
+    --wwhite: #707070;
+    --roboto: 'roboto';
+    --rift: 'rift';
+    --poppins: 'poppins';
+    --ptsans: 'pt sans';
+    --gotik: 'league gothic';
+}
+
+#project-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--middleGrey);
+    margin-top: 40px;
+    padding: 20px 50px 50px 240px;
+}
+
+.fa-external-link-alt:before {
+    color: var(--wwhite);
+    font-size: 35px;
+}
+
+.title-container {
+    font-family: var(--gotik);
+    color: var(--rred);
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+#project-container p {
+    font-family: var(--roboto);
+    color: var(--wwhite);
+    font-size: 14px;
+    width: 495px;
+    line-height: 20px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    font-family: var(--rift);
+    font-size: 30px;
+    color: var(--wwhite);
+    margin-top: 20px;
+}
+
+h2:hover {
+    color: var(--rred-hover);
+}
+
+span {
+    letter-spacing: -3px;
+}
+
+
+.gallery-container {
+    height: 228px;
+    width: 600px;
+    cursor: pointer;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "snippet img1"
+        "snippet img2"
+        "snippet img3"
+        "snippet img4";
+}
+
+.snippet {
+    grid-area: snippet;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/frost1.jpg);
+}
+
+.proba1 {
+    background-image: url(../img/frost1.jpg);
+    grid-area: snippet;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.proba2 {
+    background-image: url(../img/frost2.jpg);
+    grid-area: snippet;
+    background-position: center;
+    background-size: cover;
+}
+
+.proba3 {
+    background-image: url(../img/frost3.jpg);
+    grid-area: snippet;
+    background-position: center;
+    background-size: cover;
+}
+
+.proba4 {
+    background-image: url(../img/frost4.jpg);
+    grid-area: snippet;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    grid-area: img1;
+    background-image: url(../img/frost1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    grid-area: img2;
+    background-image: url(../img/frost2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    grid-area: img3;
+    background-image: url(../img/frost3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    grid-area: img4;
+    background-image: url(../img/frost4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #project-container {
+        padding: 0px 0px 10px 0px !important;
+        margin-top: 10%;
+
+    }
+
+    #project-container p {
+        width: 90%;
+        text-align: justify;
+        margin: 30px auto 0 auto;
+    }
+
+
+
+    .gallery-container {
+
+        width: 90%;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 5fr 1fr;
+        grid-template-areas:
+            "snippet snippet snippet snippet"
+            "img1 img2 img3 img4";
+        margin: auto;
+
+    }
+
+    .title-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .fa-external-link-alt:before {
+        font-size: 30px;
+    }
+
+    h2 {
+        width: 90%;
+        margin: 20px auto 0px auto;
+        text-align: right;
+    }
+
+
+}
