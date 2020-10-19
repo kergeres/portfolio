@@ -626,16 +626,18 @@ a h1 {
 
 @media only screen and (max-width: 768px) {
 
-    .landing-page-bg {}
+    .landing-page-bg {
+        top: 0;
+    }
 
     #landing-page {
-        height: 50vh;
-        ;
+        height: 100vh;
+
     }
 
     #landing-page h1 {
-        font-size: 30px;
-        top: 200px;
+        font-size: 45px;
+        top: 550px;
         display: inline-block;
         transform: translateX(-50%);
     }
@@ -645,7 +647,7 @@ a h1 {
     .intro-fd,
     .wait {
         font-size: 0.1px;
-        top: 260px;
+        top: 600px;
 
     }
 
@@ -683,18 +685,18 @@ a h1 {
 
     @keyframes intro-text-two {
         0% {
-            right: 10%;
+            right: 5%;
             opacity: 0;
             color: white;
-            font-size: 20px;
+            font-size: 30px;
 
 
         }
 
         20% {
-            right: 10%;
+            right: 5%;
             opacity: 0;
-            font-size: 20px;
+            font-size: 30px;
 
 
 
@@ -702,9 +704,9 @@ a h1 {
 
 
         50% {
-            right: 35%;
+            right: 20%;
             opacity: 1;
-            font-size: 20px;
+            font-size: 30px;
 
 
         }
@@ -713,7 +715,7 @@ a h1 {
             right: 110%;
             opacity: 0;
             color: white;
-            font-size: 20px;
+            font-size: 30px;
 
         }
 
@@ -721,44 +723,58 @@ a h1 {
             right: 110%;
             opacity: 0;
             color: white;
-            font-size: 20px;
+            font-size: 30px;
         }
     }
 
     @keyframes intro-text {
         0% {
-            right: 10%;
+            right: 5%;
             opacity: 0;
-            font-size: 20px;
+            font-size: 30px;
 
         }
 
         20% {
-            right: 10%;
+            right: 5%;
             opacity: 0;
-            font-size: 20px;
+            font-size: 30px;
 
         }
 
 
         50% {
-            right: 35%;
+            right: 20%;
             opacity: 1;
-            font-size: 20px;
+            font-size: 30px;
 
         }
 
         80% {
             right: 110%;
             opacity: 0;
-            font-size: 20px;
+            font-size: 30px;
 
         }
 
         100% {
             right: 110%;
             opacity: 0;
-            font-size: 20px;
+            font-size: 30px;
+        }
+    }
+
+    @keyframes dp {
+        0% {
+            left: -10%;
+            color: white;
+            opacity: .2;
+        }
+
+
+        100% {
+            left: 50%;
+            color: white;
         }
     }
 

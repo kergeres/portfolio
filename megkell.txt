@@ -2,13 +2,12 @@
 ---------david papp szovegnek mas font
 ---------projects kepre is link 
 ---------suhnoszovegek 
+---------obama kepnek kep
+---------obama kep mobilera
+---------kep a subpage-nek
 
 
 
-
-obama kepnek kep
-obama kep mobilera
 funciot megcsinalmi: gallery, 
 nagy leiras a subpage-nek
-kep a subpage-nek
 about-me-t ujrairni
