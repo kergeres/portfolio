@@ -40,7 +40,6 @@
 
 body {
     background-color: var(--darkGrey);
-    /* padding: 80px 50px 80px 80px; */
     overflow-x: hidden;
 
 }
@@ -124,7 +123,7 @@ a h1 {
     top: 490px;
     position: absolute;
     font-size: 30px;
-    /* animation: intro-text 10s infinite; */
+    animation: intro-text 10s infinite;
     animation-fill-mode: forwards;
     margin: 0;
 }
@@ -136,7 +135,7 @@ a h1 {
     top: 490px;
     position: absolute;
     font-size: 30px;
-    /* animation: intro-text-two 10s infinite; */
+    animation: intro-text-two 10s infinite;
     animation-fill-mode: forwards;
     margin: 0;
     animation-delay: 5s;
@@ -679,7 +678,7 @@ a h1 {
 
     @keyframes intro-text-two {
         0% {
-            right: -10%;
+            right: 10%;
             opacity: 0;
             color: white;
             font-size: 20px;
