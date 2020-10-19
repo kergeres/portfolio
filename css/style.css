@@ -436,14 +436,14 @@ a h1 {
 
 @keyframes intro-text {
     0% {
-        right: -10%;
+        right: 10%;
         opacity: 0;
         font-size: 30px;
 
     }
 
     20% {
-        right: -10%;
+        right: 10%;
         opacity: 0;
         font-size: 30px;
 
@@ -473,7 +473,7 @@ a h1 {
 
 @keyframes intro-text-two {
     0% {
-        right: -10%;
+        right: 10%;
         opacity: 0;
         color: white;
         font-size: 20px;
@@ -481,7 +481,7 @@ a h1 {
     }
 
     20% {
-        right: -10%;
+        right: 10%;
         opacity: 0;
         font-size: 30px;
 
