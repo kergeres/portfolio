@@ -27,6 +27,7 @@
 
 .title-container {
     font-family: var(--gotik);
+    font-style: italic;
     color: var(--rred);
     font-size: 30px;
     margin-bottom: 20px;

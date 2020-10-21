@@ -222,6 +222,7 @@ a h1 {
 
 .project-content-container h2 {
     font-family: var(--gotik);
+    font-style: italic;
     color: var(--rred);
     font-size: 45px;
     margin-bottom: 20px;
@@ -554,7 +555,8 @@ a h1 {
     .about-me-top-p {
         width: 90%;
         margin-top: 60px;
-        text-align: center;
+        text-align: justify;
+
     }
 
     .about-me-bottom-p {
