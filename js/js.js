@@ -1,19 +1,11 @@
 function gallery (bejon){
    
-    // let regiklassz = document.querySelector("#snip").className;
-    
-    
-    //  document.querySelector(".snippet").classList.toggle(`${bejon}`);
-    //  document.querySelector(".snippet").classList.remove(`${regiklassz}`);
-    // background-position: center;
-    // background-size: cover;
+  
 
     document.querySelector(".snippet").style.backgroundImage = `url(../img/${bejon}.jpg)`;
    
     console.log(bejon);
-    // `url(../img/${bejon}.jpg)`
-    // console.log(regiklassz);
-    // console.log(document.querySelector(".snippet"));
+    
 }
 
 function textAnomatoin() {
